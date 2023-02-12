@@ -2,9 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { genericDevice } from './devizesize'
-import { ContainerRowFlex } from 'container-base'
+import { ContainerBase } from 'container-base'
 
-const StyledGrid = styled(ContainerRowFlex).attrs((props) => ({
+const StyledGrid = styled(ContainerBase).attrs((props) => ({
   align: 'flex-start'
 }))`
   @media all and ${genericDevice.smallest} {
