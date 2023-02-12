@@ -1,4 +1,4 @@
-# Responsive Grid
+# Responsive Grid Container
 
 > Small library responsive grid base container
 
@@ -6,16 +6,16 @@ This library is using:
   * [Styled Components](https://styled-components.com/)
   * [Container Base](https://github.com/bismarkanes/container-base)
 
-[![NPM](https://img.shields.io/npm/v/responsive-grid.svg)](https://www.npmjs.com/package/responsive-grid) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/responsive-grid-container.svg)](https://www.npmjs.com/package/responsive-grid-container) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save responsive-grid
+npm install --save responsive-grid-container
 
 or
 
-npm install https://github.com/bismarkanes/responsive-grid#0.1.0
+npm install https://github.com/bismarkanes/responsive-grid-container#0.1.0
 ```
 
 ## Note
@@ -27,7 +27,7 @@ npm install https://github.com/bismarkanes/responsive-grid#0.1.0
 ```jsx
 import React from 'react'
 
-import { ResponsiveGridContainer, ResponsiveGrid } from 'responsive-grid'
+import { ResponsiveGridContainer, ResponsiveGrid } from 'responsive-grid-container'
 
 const ResponsiveListView = (props) => {
   return (
