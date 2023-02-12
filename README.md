@@ -6,7 +6,7 @@ This library is using:
   * [Styled Components](https://styled-components.com/)
   * [Container Base](https://github.com/bismarkanes/container-base)
 
-[![NPM](https://img.shields.io/npm/v/responsive-grid-container.svg)](https://www.npmjs.com/package/@bismarkanes/responsive-grid-container) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@bismarkanes/responsive-grid-container.svg)](https://www.npmjs.com/package/@bismarkanes/responsive-grid-container) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
