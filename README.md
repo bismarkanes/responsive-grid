@@ -70,4 +70,6 @@ TODO
 
 ## License
 
-MIT © [bismarkanes](https://github.com/bismarkanes)
+Licensed under the MIT License, Copyright © 2023-present Bismark Johannes
+
+See [LICENSE](./LICENSE) for more information.
