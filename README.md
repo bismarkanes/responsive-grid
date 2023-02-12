@@ -6,28 +6,23 @@ This library is using:
   * [Styled Components](https://styled-components.com/)
   * [Container Base](https://github.com/bismarkanes/container-base)
 
-[![NPM](https://img.shields.io/npm/v/responsive-grid-container.svg)](https://www.npmjs.com/package/responsive-grid-container) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/responsive-grid-container.svg)](https://www.npmjs.com/package/@bismarkanes/responsive-grid-container) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save responsive-grid-container
-
-or
-
-npm install https://github.com/bismarkanes/responsive-grid-container#0.1.0
+npm install @bismarkanes/responsive-grid-container
 ```
 
 ## Note
 * *This library is intended to be small.*
-* *This library is not yet published to npm registry.*
 
 ## Usage
 
 ```jsx
 import React from 'react'
 
-import { ResponsiveGridContainer, ResponsiveGrid } from 'responsive-grid-container'
+import { ResponsiveGridContainer, ResponsiveGrid } from '@bismarkanes/responsive-grid-container'
 
 const ResponsiveListView = (props) => {
   return (

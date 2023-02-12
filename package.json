@@ -1,10 +1,19 @@
 {
-  "name": "responsive-grid-container",
+  "name": "@bismarkanes/responsive-grid-container",
   "version": "1.0.0",
   "description": "Small library responsive grid base container",
-  "author": "bismarkanes",
+  "author": "bismarkanes <bismark.john.anes@gmail.com>",
   "license": "MIT",
-  "repository": "bismarkanes/responsive-grid-container",
+  "keywords": [
+    "react",
+    "responsive",
+    "container",
+    "grid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh+https://github.com/bismarkanes/responsive-grid-container.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
@@ -24,7 +33,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "container-base": "github:bismarkanes/container-base#0.3.0",
+    "@bismarkanes/container-base": "^1.0.1",
     "react": "^16.0.0",
     "styled-components": ">=5.1.1"
   },
