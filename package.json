@@ -1,10 +1,10 @@
 {
-  "name": "responsive-grid",
+  "name": "responsive-grid-container",
   "version": "1.0.0",
   "description": "Small library responsive grid base container",
   "author": "bismarkanes",
   "license": "MIT",
-  "repository": "bismarkanes/responsive-grid",
+  "repository": "bismarkanes/responsive-grid-container",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
