@@ -1,6 +1,6 @@
 import React from 'react'
-import { ContainerRowFlex } from 'container-base'
+import { ContainerBase } from 'container-base'
 
 export const ResponsiveGridContainer = (props) => {
-  return <ContainerRowFlex wrap='wrap' {...props} />
+  return <ContainerBase wrap='wrap' {...props} />
 }
