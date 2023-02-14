@@ -1,6 +1,6 @@
 {
   "name": "@bismarkanes/responsive-grid-container",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small library responsive grid base container",
   "author": "bismarkanes <bismark.john.anes@gmail.com>",
   "license": "MIT",
@@ -37,8 +37,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@bismarkanes/container-base": "^1.0.3",
-    "react": "^16.0.0",
+    "@bismarkanes/container-base": ">=1.0.3",
+    "react": ">=16.8.0",
     "styled-components": ">=5.1.1"
   },
   "devDependencies": {
