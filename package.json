@@ -37,7 +37,6 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "@bismarkanes/container-base": ">=1.0.3",
     "react": ">=16.8.0",
     "styled-components": ">=5.1.1"
   },
@@ -64,5 +63,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "@bismarkanes/container-base": "^1.0.4"
+  }
 }
