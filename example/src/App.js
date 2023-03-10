@@ -4,7 +4,7 @@ import { ResponsiveGridContainer, ResponsiveGrid } from 'responsive-grid'
 
 const ResponsiveListView = (props) => {
   return (
-    <ResponsiveGrid mobileGrid={1} tabletGrid={2} laptopGrid={3} desktopGrid={4} {...props} />
+    <ResponsiveGrid flexGrow="0" border="1px solid grey" mobileGrid={1} tabletGrid={2} laptopGrid={3} desktopGrid={4} {...props} />
   )
 }
 
@@ -30,6 +30,9 @@ class Example extends React.Component {
           </ResponsiveListView>
           <ResponsiveListView>
             <p>Phasellus neque orci, porta a, aliquet quis, semper a, massa.  Phasellus purus. Nam euismod tellus id erat.</p>
+          </ResponsiveListView>
+          <ResponsiveListView>
+            <p>Donec at pede.  Aliquam posuere.  Nullam rutrum.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Donec at pede.  </p>
           </ResponsiveListView>
         </ResponsiveGridContainer>
       </React.Fragment >
