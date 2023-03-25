@@ -6,28 +6,33 @@ import { ContainerBaseRow } from '@bismarkanes/container-base'
 
 const StyledGrid = styled(ContainerBaseRow)`
   @media all and ${genericDevice.smallest} {
-    flex: 0 ${(props) => props.Grids.gridMobile}};
+    flex: 1 ${(props) => props.Grids.gridMobile}};
     flex-grow: ${(props) => props.flexGrow};
+    box-sizing: border-box;
   }
 
   @media all and ${genericDevice.mobile} {
-    flex: 0 ${(props) => props.Grids.gridMobile}};
+    flex: 1 ${(props) => props.Grids.gridMobile}};
     flex-grow: ${(props) => props.flexGrow};
+    box-sizing: border-box;
   }
 
   @media all and ${genericDevice.tablet} {
     flex: 1 ${(props) => props.Grids.gridTablet};
     flex-grow: ${(props) => props.flexGrow};
+    box-sizing: border-box;
   }
 
   @media all and ${genericDevice.laptop} {
     flex: 1 ${(props) => props.Grids.gridLaptop};
     flex-grow: ${(props) => props.flexGrow};
+    box-sizing: border-box;
   }
 
   @media all and ${genericDevice.desktop} {
     flex: 1 ${(props) => props.Grids.gridDesktop};
     flex-grow: ${(props) => props.flexGrow};
+    box-sizing: border-box;
   }
 `
 

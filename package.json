@@ -1,6 +1,6 @@
 {
   "name": "@bismarkanes/responsive-grid-container",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Small library responsive grid base container",
   "author": "bismarkanes <bismark.john.anes@gmail.com>",
   "license": "MIT",
@@ -64,7 +64,7 @@
     "dist"
   ],
   "dependencies": {
-    "@bismarkanes/container-base": "^1.0.4",
+    "@bismarkanes/container-base": "^1.0.5",
     "styled-components": ">=5.1.1"
   }
 }
